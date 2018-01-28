@@ -16,8 +16,7 @@ def display(row):
 			show += black
 	print(show)
 
-def run(ic = '1'*50, t = 80):
-	row = ic
+def run(row = '1'*50, t = 80):
 	for _ in range(t):
 		first,last = row[0],row[-1]
 		nextrow = ''
